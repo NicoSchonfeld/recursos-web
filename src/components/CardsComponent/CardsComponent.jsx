@@ -55,8 +55,8 @@ const CardsComponent = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               className="w-full h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-10 px-20"
             >
-              {cards?.map((card) => (
-                <Link href={card?.path} key={card?.title}>
+              {cards?.map((card, index) => (
+                <Link href={card?.path} key={index}>
                   <motion.div
                     whileHover={{ scale: 1.02 }}
                     className="w-full h-[409px] cursor-pointer bg-[#1A1A1A] border-2 border-[#555] hover:border-[#ffffff90] rounded-3xl flex items-center justify-center transition-all"

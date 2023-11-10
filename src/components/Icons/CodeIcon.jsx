@@ -20,8 +20,8 @@ const CodeIcon = ({ w = "209", h = "179" }) => {
           y2="178.62"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D8D8D8" />
-          <stop offset="1" stop-color="#727272" />
+          <stop stopColor="#D8D8D8" />
+          <stop offset="1" stopColor="#727272" />
         </linearGradient>
       </defs>
     </svg>
